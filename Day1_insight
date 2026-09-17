@@ -1,0 +1,30 @@
+*Your bone marrow knows you're diabetic before your macrophages do. 🩸*
+
+Day 1/90 - I re-analyzed a PUBLIC dataset GSE54154 (GEO, 2014 - bone marrow progenitors from db/db mice) entirely in Python with new question.
+
+The assumption in textbooks: Diabetes = angry M1 macrophages. Tnf high, Il1b high.
+
+What the public data actually says after I merged 23,360 genes:
+
+Tnf: 0.11 log2FC
+Il1b: -0.08
+Nos2: -0.35
+
+Barely a whisper. Not a shout.
+
+1979 genes ARE up in diabetic progenitors - but they are Ly6g6f, Tmem150c... progenitor identity genes, not warrior M1 genes.
+
+Understanding from this:
+
+Hyperglycemia doesn't create a warrior in the bone marrow. It creates a _primed recruit_.
+
+The recruit leaves marrow, enters tissue, meets high glucose + second hit - THEN it becomes full M1.
+
+That difference - primed vs warrior - is only visible when you re-question public datasets with M1 panel.
+
+Data source: Public GEO GSE54154 (thank you to original authors)
+Re-analysis code + 1979 gene list: github.com/raasenthamil/GSE54154_analysis
+
+Tomorrow: I test mature RAW264.7 under high glucose (GSE107557) - will they scream Tnf?
+
+#Reanalysis #PublicData #Immunology #MacrophageBiology #OpenScience
