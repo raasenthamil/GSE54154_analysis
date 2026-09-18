@@ -24,4 +24,4 @@ GEO SOFT files can be empty. Real data is in RAW.tar. Always check GSM titles fi
 - `Day2_volcano.png` - volcano plot
 - `day2_GSE107557_DEG.py` - clean code
 
-### Next: Day 3 - Pathway enrichment of 357 UP genes
+
